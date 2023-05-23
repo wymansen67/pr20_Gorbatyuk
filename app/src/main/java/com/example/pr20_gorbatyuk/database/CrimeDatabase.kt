@@ -1,8 +1,9 @@
-package com.example.pr20_gorbatyuk
+package com.example.pr20_gorbatyuk.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.example.pr20_gorbatyuk.Crime
 
 @Database(entities = [ Crime::class ], version=1)
 @TypeConverters(CrimeTypeConverters::class)

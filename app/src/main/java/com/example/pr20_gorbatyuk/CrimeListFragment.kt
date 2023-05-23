@@ -44,4 +44,21 @@ class CrimeListFragment: Fragment() {
         crimeRecyclerView.adapter = adapter
 
     }
+    private inner class CrimeAdapter(var crimes: List<Crime>):RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+        override fun getItemViewType(position: Int): Int {
+            TODO()
+        }
+
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+            TODO("Not yet implemented")
+        }
+
+        override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+            TODO("Not yet implemented")
+        }
+
+        override fun getItemCount(): Int {
+            TODO("Not yet implemented")
+        }
+    }
 }

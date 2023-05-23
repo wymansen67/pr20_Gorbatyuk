@@ -1,8 +1,9 @@
-package com.example.pr20_gorbatyuk
+package com.example.pr20_gorbatyuk.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Query
+import com.example.pr20_gorbatyuk.Crime
 import java.util.UUID
 
 @Dao

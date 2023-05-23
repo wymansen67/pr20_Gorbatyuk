@@ -1,4 +1,4 @@
-package com.example.pr20_gorbatyuk
+package com.example.pr20_gorbatyuk.database
 
 import androidx.room.TypeConverter
 import java.util.Date
